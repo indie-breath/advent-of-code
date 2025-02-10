@@ -3,12 +3,13 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-// wtf are these fucking imports? I gotta import errors now?
+import java.io.FileNotFoundException;
+// wtf are these imports? I gotta import errors now?
 
-public class Main {
+public class TaskOne {
     public static void main(String[] args) {
         ArrayList<Integer> coords1 =
-            new ArrayList<Integer>(); // I hate this fucking list type, why
+            new ArrayList<Integer>(); // I hate this list type, why
                                       // can't Java be a normal language?
         ArrayList<Integer> coords2 = new ArrayList<Integer>();
 
